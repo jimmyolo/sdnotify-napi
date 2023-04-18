@@ -1,4 +1,4 @@
-const addon = require("./build/Release/sdnotify.node");
+const addon = require("node-gyp-build")(__dirname);
 
 module.exports = {
   addon,

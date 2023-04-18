@@ -7,10 +7,13 @@
     "node": ">=16"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "node-gyp-build"
   },
   "author": "jimmyolo <victor0801x@gmail.com>",
   "devDependencies": {
     "node-gyp": "*"
+  },
+  "dependencies": {
+    "node-gyp-build": "^4.6.0"
   }
 }
