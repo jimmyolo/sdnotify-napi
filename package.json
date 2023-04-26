@@ -6,6 +6,16 @@
   "engines": {
     "node": ">=16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyolo/sdnotify-napi.git"
+  },
+  "keywords": [
+    "systemd",
+    "systemctl",
+    "journalctl",
+    "sd_notify"
+  ],
   "scripts": {
     "install": "node-gyp-build"
   },
