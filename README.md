@@ -1,6 +1,6 @@
 # sdnotify-napi
 
-> another sd-notify native binding, but in N-API
+> another sd-notify native binding
 
 ## Requirements
 
@@ -11,14 +11,3 @@
   - redhat: `yum install systemd-devel`
 
 ## Usage
-
-same as [`sd-notify`](https://github.com/systemd/node-sd-notify)
-
-- [ ] ready
-- [ ] stopping
-- [ ] watchdog
-- [ ] watchdogInterval
-- [ ] startWatchdogMode
-- [ ] stopWatchdogMode
-- [ ] sendState
-- [ ] journalPrint
