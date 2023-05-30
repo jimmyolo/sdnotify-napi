@@ -10,7 +10,9 @@ module.exports = {
   watchdog: () => addon.watchdog(),
   watchdogInterval: () => addon.watchdogInterval(),
   startWatchdogMode: (interval) => {
-    interval = +interval ?? 3_000
+    interval = +interval
+    if (interval <= 0) throw new RangeError('interval must be a positive number')
+
     watchdogTimeout && clearInterval(watchdogTimeout)
     watchdogTimeout = setInterval(addon.watchdog, interval)
   },
