@@ -18,12 +18,10 @@
     "sd_notify"
   ],
   "scripts": {
-    "install": "node-gyp-build"
+    "install": "node-gyp-build",
+    "clean": "rm -rf build"
   },
   "author": "jimmyolo <victor0801x@gmail.com>",
-  "devDependencies": {
-    "node-gyp": "*"
-  },
   "dependencies": {
     "node-gyp-build": "^4.6.0"
   }
